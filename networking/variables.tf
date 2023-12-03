@@ -18,7 +18,7 @@ variable "vpc_cidr_block" {
   default     = "10.14.0.0/16"
 }
 
-# VPC Availability Zones
+# VPC Availability Zones twu
 variable "vpc_availability_zones" {
   description = "VPC Availability Zones"
   type        = list(string)
